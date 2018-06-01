@@ -1,14 +1,11 @@
-* {
-    text-align: center;
-    box-sizing: border-box;
-}
+/* Default CSS */
+@import url("default.css");
 
-html, body {
-    height: 100%;
-    width: 100%;
-}
+/* 980px */
+@import url("980.css") only screen and (max-width: 980px);
 
-body {
-    background-image: url('../images/45degreee_fabric/45degreee_fabric.png');
-    height: 100%;
-}
+/* 768px */
+@import url("768.css") only screen and (max-width: 768px);
+
+/* 640px */
+@import url("640.css") only screen and (max-width: 640px);

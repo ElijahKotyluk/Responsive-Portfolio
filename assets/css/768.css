@@ -1,0 +1,97 @@
+/* 768px screen width */
+
+
+/* Header */
+
+header {
+    height: 80px;
+
+}
+
+header .container {
+    height: 80px;
+}
+
+header .logo {
+    font-size: 28px;
+    height: 80px;
+    left: 75px;
+}
+
+.logo h1 {
+    bottom: 5px;
+}
+
+.nav {
+    line-height: 80px;
+    left: 45px;
+}
+
+.nav-a {
+    font-size: 1.1em;
+}
+
+
+/*  Main Content */
+
+.main-content {
+    height: 585px;
+    top: 25px;
+}
+
+.main-content p {
+    font-size: 18px;
+}
+
+.main-content h1 {
+    font-size: 1.83em;
+}
+
+p:nth-child(3) {
+    top: 5px;
+}
+
+img.photo {
+    top: 30px;
+}
+
+.p-main {
+    margin: 0 15px;
+}
+
+
+/* Portfolio */
+
+li.portfolio-item {
+    height: 170px;
+    left: 65px;
+}
+
+.portfolio-item img {
+    width: 190px;
+    height: 150px;
+}
+
+
+/* Contact */
+
+form {
+    max-width: 550px;
+}
+
+
+/* Footer */
+
+footer {
+    height: 60px;
+}
+
+.copyright {
+    font-size: 0.75em;
+    top: 25px;
+}
+
+.social img {
+    height: 35px;
+    width: 35px;
+}

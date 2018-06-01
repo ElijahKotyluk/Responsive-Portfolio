@@ -1,0 +1,75 @@
+/* 640px screen width */
+
+
+/* Header */
+
+header .logo {
+    font-size: 26px;
+}
+
+.nav {
+    left: 30px;
+}
+
+.nav-a {
+    font-size: 1.05em;
+}
+
+
+/* Main Content */
+
+.main-content p {
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+p:nth-child(3) {
+    top: 0px;
+}
+
+img.photo {
+    top: 40px;
+}
+
+
+/* Portfolio */ 
+
+.portfolio {
+    display: inline-block;
+}
+
+li.portfolio-item {
+    height: 130px;
+    width: 175px;
+    left: 0px;
+    padding-top: 10px;
+}
+
+.portfolio-item img {
+    width: 140px;
+    height: 125px;
+    margin-top: 10px;
+}
+
+li.portfolio-item:not(.not) {
+    margin-top: 15px;
+}
+
+
+/* Contact */
+
+form {
+    max-width: 450px;
+}
+
+
+/* footer */
+
+.social img  {
+    height: 30px;
+    width: 30px;
+}
+
+.my-links {
+    right: 15px;
+}
